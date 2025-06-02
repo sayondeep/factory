@@ -11,4 +11,4 @@ readme.files = ["https://sayondeep.github.io/factory/qr_code.png"]
 image.esp.parts = ["https://sayondeep.github.io/factory/all_products_merged.bin","https://sayondeep.github.io/factory/fctry.bin","https://sayondeep.github.io/factory/esp_secure_cert.bin"]
 image.esp.addresses = ["0x0","0x1F2000","0xD000"]
 [[portConnectionOptions]]
-baudRate = 115200
+console_baudrate = 115200
