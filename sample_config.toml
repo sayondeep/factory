@@ -1,0 +1,14 @@
+esp_toml_version = 1.0
+ 
+multipart = true
+chip = "esp"
+supported_apps = ["Product"]
+ 
+[Product]
+chipsets = ["ESP"]
+readme.text = ["https://sayondeep.github.io/factory/README.md"]
+readme.files = [...png_link]
+image.esp.parts = ["https://sayondeep.github.io/factory/all_products_merged.bin","https://sayondeep.github.io/factory/fctry.bin","https://sayondeep.github.io/factory/esp_secure_cert.bin"]
+image.esp.addresses = ["0x0","0x1F2000","0xD000"]
+[[portConnectionOptions]]
+baudRate = 115200
